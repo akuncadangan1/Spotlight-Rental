@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Home_frag">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:text="Spotlight Rent"
+        android:textColor="#009122"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <EditText
+                android:id="@+id/nama"
+                style="@style/editstyle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Nama" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <EditText
+                android:id="@+id/acara"
+                style="@style/editstyle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Acara/lokasi" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <EditText
+                android:id="@+id/estimasi"
+                style="@style/editstyle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Estimasi lama sewa"
+                android:inputType="number" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <EditText
+                android:id="@+id/tanggal"
+                style="@style/editstyle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Tanggal ambil" />
+        </android.support.design.widget.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:text="Halogen"
+                android:textAlignment="textStart"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/button_decrease"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_selector"
+                style="@style/button"
+                android:text="-"/>
+
+            <TextView
+                android:id="@+id/jumlahhalogen"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/button_increase"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_selector"
+                android:text="+"
+                style="@style/button"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Estimasi Harga"
+                android:gravity="center"
+                android:textAlignment="textStart"
+                android:textSize="18sp"/>
+            <TextView
+                android:id="@+id/hargatotal"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Rp 0"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textAlignment="textEnd"
+                android:textSize="18sp"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/book"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/button_selector"
+            style="@style/button"
+            android:text="Book"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

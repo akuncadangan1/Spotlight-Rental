@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "704556421369",
+    "firebase_url": "https://sorent-47906.firebaseio.com",
+    "project_id": "sorent-47906",
+    "storage_bucket": "sorent-47906.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:704556421369:android:f640fa8da4c9da7e7ed228",
+        "android_client_info": {
+          "package_name": "com.kotlin.w.sorent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "704556421369-qp7kcr7bf5o2tatf2otos2cjs4duqjnc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kotlin.w.sorent",
+            "certificate_hash": "c10d9795399acffe2d903eb3df838c89914bd20d"
+          }
+        },
+        {
+          "client_id": "704556421369-7hclakp4jao960kb02d6b0esle8ea1tq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-92p-rWPYLaflLuKUfFKAM6501mbG40w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "704556421369-7hclakp4jao960kb02d6b0esle8ea1tq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:orientation="horizontal"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+   android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:gravity="center"
+            android:text="24"
+            android:textSize="45sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:gravity="center"
+            android:text="Jan 2019" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/lnama"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="Nama" />
+
+        <TextView
+            android:id="@+id/lacara"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="Acara" />
+
+        <TextView
+            android:id="@+id/lestimasi"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="Durasi" />
+
+        <TextView
+            android:id="@+id/ljumlah"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="Jumlah" />
+
+        <TextView
+            android:id="@+id/lharga"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="Harga" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button_edit"
+            style="@style/button"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_selector"
+            android:text="Edit" />
+
+        <Button
+            android:id="@+id/button_delete"
+            style="@style/button"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_selector"
+            android:text="Delete" />
+    </LinearLayout>
+
+</LinearLayout>
